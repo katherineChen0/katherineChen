@@ -3,23 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kath's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Katherine Chen | Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Hi, I'm Kath!</h1>
-        <p>Welcome to my programming portfolio.</p>
-    </header>
-    <nav>
+    <a href="#" class="logo">
+        <svg viewBox="0 0 24 24" class="hexagon-logo">
+            <!-- You'll need to add your hexagon logo SVG path here -->
+        </svg>
+    </a>
+
+    <nav class="navbar">
         <ul>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#about"><span>01.</span> About</a></li>
+            <li><a href="#experience"><span>02.</span> Experience</a></li>
+            <li><a href="#work"><span>03.</span> Work</a></li>
+            <li><a href="#contact"><span>04.</span> Contact</a></li>
+            <li><a href="resume.pdf" class="resume-btn">Resume</a></li>
         </ul>
     </nav>
-    <footer>
-        <p>© 2025 Kath. All Rights Reserved.</p>
-    </footer>
+    
+    <div class="social-sidebar">
+        <ul>
+            <li><a href="https://github.com/katherineChen0"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/katherine-chen-38b5a826a/"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/_kat_chen_/"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    
+    <section class="hero">
+        <p class="intro-text">Hi, my name is</p>
+        <h1>Katherine Chen.</h1>
+        <h2>I build things for the web.</h2>
+        <p class="description">I'm a software engineer based in Boston, MA specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.</p>
+        <a href="#contact" class="cta-button">Get In Touch</a>
+    </section>
 </body>
 </html>
