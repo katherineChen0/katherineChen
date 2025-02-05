@@ -174,11 +174,58 @@ body {
     margin-bottom: 20px;
 }
 
+
 .description {
     color: var(--dark-text);
     font-size: 20px;
     max-width: 540px;
     margin-bottom: 50px;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 50%;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    max-width: 50%;
+}
+
+.image {
+    width: 250px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.image1 {
+    top: -30px;
+    left: 20px;
+    z-index: 2;
+}
+
+.image2 {
+    top: 20px;
+    left: 60px;
+    opacity: 0.9;
 }
 
 .cta-button {
